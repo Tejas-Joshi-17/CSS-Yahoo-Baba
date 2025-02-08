@@ -1,0 +1,15 @@
+How to Use Google Fonts :- 
+
+--- 1) Go to https://fonts.google.com .
+--- 2) Select any Font.
+--- 3) Click on View Selected families.
+--- 4) Paste link in "head" tag.
+--- 5) Use font-family in Selected id/class .
+
+
+
+
+Why Google Fonts are Used ?
+
+--- 1) To reduce pressure on over-server by passing some pressure on Google's Server.
+--- 2) To get More Fonts.

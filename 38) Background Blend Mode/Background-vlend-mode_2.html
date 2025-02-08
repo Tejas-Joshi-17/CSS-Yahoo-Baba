@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Background Blend Mode - 2</title>
+    <style>
+        h1{ text-align: center; }
+        #First{ 
+            margin: 5px;
+            width: 30%;
+            height: 300px;
+            float: left;
+            border: 2px solid black;
+            background-image: url('/Images/Stadium-image.jpg'),url('/Images/flowers-image.jpg');
+            background-blend-mode: color-burn;
+        }
+        #Second{ 
+            margin: 5px;
+            width: 30%;
+            height: 300px;
+            float: left;
+            border: 2px solid black;
+            background-image: url('/Images/Stadium-image.jpg'),url('/Images/flowers-image.jpg');
+            background-blend-mode: color-dodge;
+        }
+        #Third{ 
+            margin: 5px;
+            width: 30%;
+            height: 300px;
+            float: left;
+            border: 2px solid black;
+            background-image: url('/Images/Stadium-image.jpg'),url('/Images/flowers-image.jpg');
+            background-blend-mode: darken;
+        }
+        #Fourth{ 
+            margin: 5px;
+            width: 30%;
+            height: 300px;
+            float: left;
+            border: 2px solid black;
+            background-image: url('/Images/Stadium-image.jpg'),url('/Images/flowers-image.jpg');
+            background-blend-mode: difference;
+        }
+    </style>
+</head>
+<body>
+
+    <h1>Background Blend Mode</h1>
+
+        <div id="First"></div>
+        <div id="Second"></div>
+        <div id="Third"></div>
+        <div id="Fourth"></div>
+
+
+</body>
+</html>

@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>display: inline</title>
+    <style>
+        .First, .Second, .Third{
+            margin: 10px;
+            border: 2px solid black;
+            padding: 10px;
+        }
+        #Unordered-list-Second{ border: 1px solid red;  }
+        #Unordered-list-Second li{ border: 1px solid green;  }
+        #Unordered-list-Third li{ 
+            border: 1px solid green;
+            display: inline;
+        /*  width: 200px;  */
+            padding: 10px;
+            margin: 10px;          /* Vertical-margin not working */
+        }
+    </style>
+</head>
+<body>
+
+    <div class="First">
+        <h1>Heading - One</h1>
+        <ul>
+            <li>One</li>
+            <li>Two</li>
+            <li>Three</li>
+            <li>Four</li>
+        </ul>
+    </div>
+
+    <div class="Second">
+        <h1 id="Second-Heading">Heading - Second</h1>
+        <ul id="Unordered-list-Second">
+            <li>One</li>
+            <li>Two</li>
+            <li>Three</li>
+            <li>Four</li>
+        </ul>
+    </div>
+
+    <div class="Third">
+        <h1 id="Third-Heading">Heading - Second</h1>
+        <ul id="Unordered-list-Third">
+            <li>One</li>
+            <li>Two</li>
+            <li>Three</li>
+            <li>Four</li>
+        </ul>
+    </div>
+
+</body>
+</html>

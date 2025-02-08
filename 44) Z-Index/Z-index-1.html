@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Z-Index - 1</title>
+    <style>
+        .Rectangle{
+            display: inline-block;
+            width: 300px;
+            height: 300px;
+            border: 1px solid black;
+        }
+        #div-1{
+            background-color: orange;
+            font-size: 50px ;
+            position: absolute;
+            top: 100px;
+            left: 50px;
+        }
+        #div-2{
+            background-color: red;
+            font-size: 50px ;
+            position: absolute;
+            top: 150px;
+            left: 100px;
+        }
+        #div-3{
+            background-color: green;
+            font-size: 50px ;
+            position: absolute;
+            top: 200px;
+            left: 150px;
+        }
+        #div-4{
+            background-color: blue;
+            font-size: 50px ;
+            position: absolute;
+            top: 250px;
+            left: 200px;
+        }
+    </style>
+</head>
+<body>
+    <div class="Rectangle" id="div-1">A</div>
+    <div class="Rectangle" id="div-2">B</div>
+    <div class="Rectangle" id="div-3">C</div>
+    <div class="Rectangle" id="div-4">D</div>
+</body>
+</html>

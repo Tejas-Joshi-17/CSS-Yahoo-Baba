@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>text-overflow</title>
+    <style>
+        div{
+            white-space: nowrap;
+            overflow: hidden;
+            border: 1px solid black;
+            width: 200px;
+        }
+        #Ellipsis{  text-overflow: ellipsis; }
+        #String{  text-overflow: "[..]"; }
+    </style>
+</head>
+<body>
+    <h1>text-overflow : clip ( default ) </h1>
+    <div>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Laboriosam, est deleniti inventore natus dolor beatae. Voluptates ducimus aliquam perferendis ipsam.</div>
+    <hr>
+    <h1>text-overflow : ellipsis</h1>
+    <div id="Ellipsis">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Laboriosam, est deleniti inventore natus dolor beatae. Voluptates ducimus aliquam perferendis ipsam.</div>
+    <hr>
+    <h1>text-overflow : string ( Not Working )</h1>
+    <div id="String">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Laboriosam, est deleniti inventore natus dolor beatae. Voluptates ducimus aliquam perferendis ipsam.</div>
+</body>
+</html>

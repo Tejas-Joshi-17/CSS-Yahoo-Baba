@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Resize - 1</title>
+    <style>
+        h1, h2{ text-align: center; }
+        .div-tag{
+            display: inline-block;
+            width: 500px;
+            height: 300px;
+            margin: 20px;
+            padding: 10px;
+            border: 2px solid black;
+        }
+        #div-1{
+            background-color: aquamarine;
+            overflow: auto;
+            resize: none;           /* resize: none is By-default Property*/
+            float: left;
+        }
+        #div-2{
+            background-color: rgb(26, 23, 194);
+            overflow: auto;
+            resize: horizontal;
+            float: left;
+            clear: left;
+        }
+        #div-3{
+            background-color: rgb(206, 7, 156);
+            overflow: auto;
+            resize: vertical;
+            float: left;
+            clear: left;
+        }
+        #div-4{
+            background-color: rgb(196, 230, 5);
+            overflow: auto;
+            resize: both;
+            float: left;
+            clear: left;
+        }
+    </style>
+</head>
+<body>
+    <h1>CSS Resize Property</h1>
+    <div class="div-tag" id="div-1">
+        <h2>overflow: auto   & resize: none</h2>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quidem mollitia rerum repellendus ut accusantium in, a quia. Id eum exercitationem corporis omnis vero illum, commodi itaque corrupti perspiciatis ut autem mollitia consequatur voluptas voluptate animi illo quae nisi repellat facere ratione? Eaque itaque hic reiciendis nam corporis ad modi magnam ex a totam. Quam eum illo dolorem iste laboriosam? Quas alias voluptatum quam, accusantium explicabo expedita molestiae? Repellendus dolorum facere quibusdam possimus assumenda ea esse tenetur id. Fuga exercitationem nesciunt obcaecati repellendus provident, vero recusandae, possimus nisi facere voluptatem ea perferendis id dolores saepe nemo ipsa omnis odit, earum dolorem. Consectetur exercitationem molestiae doloremque reiciendis voluptas, praesentium cum autem delectus. Facilis eligendi ipsum voluptatem laborum amet nisi deserunt, numquam iusto vero modi ab autem corporis ipsam hic omnis deleniti at debitis quisquam odit rem tempore dicta quos tempora impedit. Mollitia, laboriosam earum! Repellendus eaque eos assumenda quibusdam ut iure officia maiores debitis quasi nisi nobis vero animi facere, accusamus consequatur libero quis non omnis doloremque illum tempore sed ex. Vel autem similique, vero quibusdam facilis doloremque earum voluptate dolore incidunt exercitationem atque soluta pariatur, ipsam laudantium eius dolor optio eligendi aliquam hic distinctio ratione excepturi reiciendis. Ipsa dolor, nesciunt inventore commodi officia debitis placeat omnis iure doloribus nostrum, explicabo rerum quam ipsam quibusdam harum. Harum quibusdam qui eius quisquam omnis voluptatem deserunt asperiores libero sapiente excepturi vel accusantium rem fugit vitae, hic necessitatibus earum totam minima officia odit illo eos! Inventore molestiae quisquam temporibus quidem nobis non harum, repudiandae rerum eveniet dolorum quam sapiente! Illum provident culpa eum at, non ex dolorum aspernatur, iste pariatur nulla numquam, labore voluptatum! Recusandae, at culpa eum excepturi repudiandae quae ab aspernatur rem facere minus eos nam repellat voluptate ut veritatis debitis sint corrupti officiis, voluptates eius? Corrupti ipsam temporibus quidem? Soluta, fuga laudantium.</p>
+    </div>
+    <div class="div-tag" id="div-4">
+        <h2>overflow: auto   & resize: vertical</h2>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quidem mollitia rerum repellendus ut accusantium in, a quia. Id eum exercitationem corporis omnis vero illum, commodi itaque corrupti perspiciatis ut autem mollitia consequatur voluptas voluptate animi illo quae nisi repellat facere ratione? Eaque itaque hic reiciendis nam corporis ad modi magnam ex a totam. Quam eum illo dolorem iste laboriosam? Quas alias voluptatum quam, accusantium explicabo expedita molestiae? Repellendus dolorum facere quibusdam possimus assumenda ea esse tenetur id. Fuga exercitationem nesciunt obcaecati repellendus provident, vero recusandae, possimus nisi facere voluptatem ea perferendis id dolores saepe nemo ipsa omnis odit, earum dolorem. Consectetur exercitationem molestiae doloremque reiciendis voluptas, praesentium cum autem delectus. Facilis eligendi ipsum voluptatem laborum amet nisi deserunt, numquam iusto vero modi ab autem corporis ipsam hic omnis deleniti at debitis quisquam odit rem tempore dicta quos tempora impedit. Mollitia, laboriosam earum! Repellendus eaque eos assumenda quibusdam ut iure officia maiores debitis quasi nisi nobis vero animi facere, accusamus consequatur libero quis non omnis doloremque illum tempore sed ex. Vel autem similique, vero quibusdam facilis doloremque earum voluptate dolore incidunt exercitationem atque soluta pariatur, ipsam laudantium eius dolor optio eligendi aliquam hic distinctio ratione excepturi reiciendis. Ipsa dolor, nesciunt inventore commodi officia debitis placeat omnis iure doloribus nostrum, explicabo rerum quam ipsam quibusdam harum. Harum quibusdam qui eius quisquam omnis voluptatem deserunt asperiores libero sapiente excepturi vel accusantium rem fugit vitae, hic necessitatibus earum totam minima officia odit illo eos! Inventore molestiae quisquam temporibus quidem nobis non harum, repudiandae rerum eveniet dolorum quam sapiente! Illum provident culpa eum at, non ex dolorum aspernatur, iste pariatur nulla numquam, labore voluptatum! Recusandae, at culpa eum excepturi repudiandae quae ab aspernatur rem facere minus eos nam repellat voluptate ut veritatis debitis sint corrupti officiis, voluptates eius? Corrupti ipsam temporibus quidem? Soluta, fuga laudantium.</p>
+    </div>
+    <div class="div-tag" id="div-3">
+        <h2>overflow: auto   & resize: vertical</h2>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quidem mollitia rerum repellendus ut accusantium in, a quia. Id eum exercitationem corporis omnis vero illum, commodi itaque corrupti perspiciatis ut autem mollitia consequatur voluptas voluptate animi illo quae nisi repellat facere ratione? Eaque itaque hic reiciendis nam corporis ad modi magnam ex a totam. Quam eum illo dolorem iste laboriosam? Quas alias voluptatum quam, accusantium explicabo expedita molestiae? Repellendus dolorum facere quibusdam possimus assumenda ea esse tenetur id. Fuga exercitationem nesciunt obcaecati repellendus provident, vero recusandae, possimus nisi facere voluptatem ea perferendis id dolores saepe nemo ipsa omnis odit, earum dolorem. Consectetur exercitationem molestiae doloremque reiciendis voluptas, praesentium cum autem delectus. Facilis eligendi ipsum voluptatem laborum amet nisi deserunt, numquam iusto vero modi ab autem corporis ipsam hic omnis deleniti at debitis quisquam odit rem tempore dicta quos tempora impedit. Mollitia, laboriosam earum! Repellendus eaque eos assumenda quibusdam ut iure officia maiores debitis quasi nisi nobis vero animi facere, accusamus consequatur libero quis non omnis doloremque illum tempore sed ex. Vel autem similique, vero quibusdam facilis doloremque earum voluptate dolore incidunt exercitationem atque soluta pariatur, ipsam laudantium eius dolor optio eligendi aliquam hic distinctio ratione excepturi reiciendis. Ipsa dolor, nesciunt inventore commodi officia debitis placeat omnis iure doloribus nostrum, explicabo rerum quam ipsam quibusdam harum. Harum quibusdam qui eius quisquam omnis voluptatem deserunt asperiores libero sapiente excepturi vel accusantium rem fugit vitae, hic necessitatibus earum totam minima officia odit illo eos! Inventore molestiae quisquam temporibus quidem nobis non harum, repudiandae rerum eveniet dolorum quam sapiente! Illum provident culpa eum at, non ex dolorum aspernatur, iste pariatur nulla numquam, labore voluptatum! Recusandae, at culpa eum excepturi repudiandae quae ab aspernatur rem facere minus eos nam repellat voluptate ut veritatis debitis sint corrupti officiis, voluptates eius? Corrupti ipsam temporibus quidem? Soluta, fuga laudantium.</p>
+    </div>
+    <div class="div-tag" id="div-2">
+        <h2>overflow: auto   & resize: horizontal</h2>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quidem mollitia rerum repellendus ut accusantium in, a quia. Id eum exercitationem corporis omnis vero illum, commodi itaque corrupti perspiciatis ut autem mollitia consequatur voluptas voluptate animi illo quae nisi repellat facere ratione? Eaque itaque hic reiciendis nam corporis ad modi magnam ex a totam. Quam eum illo dolorem iste laboriosam? Quas alias voluptatum quam, accusantium explicabo expedita molestiae? Repellendus dolorum facere quibusdam possimus assumenda ea esse tenetur id. Fuga exercitationem nesciunt obcaecati repellendus provident, vero recusandae, possimus nisi facere voluptatem ea perferendis id dolores saepe nemo ipsa omnis odit, earum dolorem. Consectetur exercitationem molestiae doloremque reiciendis voluptas, praesentium cum autem delectus. Facilis eligendi ipsum voluptatem laborum amet nisi deserunt, numquam iusto vero modi ab autem corporis ipsam hic omnis deleniti at debitis quisquam odit rem tempore dicta quos tempora impedit. Mollitia, laboriosam earum! Repellendus eaque eos assumenda quibusdam ut iure officia maiores debitis quasi nisi nobis vero animi facere, accusamus consequatur libero quis non omnis doloremque illum tempore sed ex. Vel autem similique, vero quibusdam facilis doloremque earum voluptate dolore incidunt exercitationem atque soluta pariatur, ipsam laudantium eius dolor optio eligendi aliquam hic distinctio ratione excepturi reiciendis. Ipsa dolor, nesciunt inventore commodi officia debitis placeat omnis iure doloribus nostrum, explicabo rerum quam ipsam quibusdam harum. Harum quibusdam qui eius quisquam omnis voluptatem deserunt asperiores libero sapiente excepturi vel accusantium rem fugit vitae, hic necessitatibus earum totam minima officia odit illo eos! Inventore molestiae quisquam temporibus quidem nobis non harum, repudiandae rerum eveniet dolorum quam sapiente! Illum provident culpa eum at, non ex dolorum aspernatur, iste pariatur nulla numquam, labore voluptatum! Recusandae, at culpa eum excepturi repudiandae quae ab aspernatur rem facere minus eos nam repellat voluptate ut veritatis debitis sint corrupti officiis, voluptates eius? Corrupti ipsam temporibus quidem? Soluta, fuga laudantium.</p>
+    </div>
+</body>
+</html>

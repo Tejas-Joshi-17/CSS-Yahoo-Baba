@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Visibility : collapse</title>
+    <style>
+        .First, .Second, .Third, .Fourth{  
+            margin: 10px;
+            padding: 10px;
+            border: 2px solid black;
+        }
+        #Table-two-row-two{  visibility: collapse; }
+        #Table-three-row-two-tdata-two{  visibility: collapse; }
+        #Fourth-table{  visibility: collapse;  }
+    </style>
+</head>
+<body>
+
+    <div class="First">
+        <h2>First Table   <---- Full Table</h2>
+       <table border="1">
+            <tr>
+                <td>Sachin</td>
+                <td>Tendulkar</td>
+            </tr> 
+            <tr>
+                <td>Mahendra-Singh</td>
+                <td>Dhoni</td>
+            </tr> 
+            <tr>
+                <td>Virat</td>
+                <td>Kohli</td>
+            </tr> 
+       </table>   
+    </div>
+
+    <div class="Second">
+        <h2>Second Table  <----- Second Row is Removed</h2>
+        <table border="1">
+            <tr>
+                <td>Sachin</td>
+                <td>Tendulkar</td>
+            </tr> 
+            <tr id="Table-two-row-two">
+                <td>Mahendra-Singh</td>
+                <td>Dhoni</td>
+            </tr> 
+            <tr>
+                <td>Virat</td>
+                <td>Kohli</td>
+            </tr> 
+       </table>   
+    </div>
+
+    <div class="Third">
+        <h2>Third Table   <----- Second data of Second Row is Removed</h2>
+        <table border="1">
+            <tr>
+                <td>Sachin</td>
+                <td>Tendulkar</td>
+            </tr> 
+            <tr>
+                <td>Mahendra-Singh</td>
+                <td id="Table-three-row-two-tdata-two">Dhoni</td>
+            </tr> 
+            <tr>
+                <td>Virat</td>
+                <td>Kohli</td>
+            </tr> 
+        </table>   
+    </div>
+
+    <div class="Fourth">
+        <h2>Fourth Table   <---- Entire Table is Removed</h2>
+        <table border="1" id="Fourth-table">
+            <tr>
+                <td>Sachin</td>
+                <td>Tendulkar</td>
+            </tr> 
+            <tr>
+                <td>Mahendra-Singh</td>
+                <td>Dhoni</td>
+            </tr> 
+            <tr>
+                <td>Virat</td>
+                <td>Kohli</td>
+            </tr> 
+        </table>   
+    </div>
+
+</body>
+</html>

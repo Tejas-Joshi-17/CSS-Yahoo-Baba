@@ -1,0 +1,7 @@
+All List-Style-Properties like
+
+1) list-style-position
+2) list-style-type
+3) list-style-image
+
+are used inside "ol" & "ul" tag

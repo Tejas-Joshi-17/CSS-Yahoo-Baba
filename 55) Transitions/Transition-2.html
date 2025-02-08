@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Transition - 2</title>
+    <style>
+        h1{ text-align: center; }
+        .div-tag{
+            display: inline-block;
+            width: 200px;
+            height: 200px;
+            margin: 20px;
+            background-color: aqua;
+            border: 2px solid black;            
+        }
+        #box-1 , #box-3{
+            transition-property: width, height, background-color;
+            transition-duration: 0.5s, 1s;  /* takes 0.5s for width & 1s for height */
+            transition-timing-function: linear;
+        }
+        #box-1:hover{
+            width: 300px;
+            height: 300px;
+            background-color: orange;
+        }
+        #box-2{
+            transition-property: width, height, background-color;
+            transition-duration: 0.5s, 1s;  /* takes 0.5s for width & 1s for height */
+            transition-delay: 1s;           /* 1 second delay in start and for end of the transition */
+            transition-timing-function: linear;
+        }
+        #box-2:hover{
+            width: 300px;
+            height: 300px;
+            background-color: rgb(131, 3, 236);
+        }
+        #box-3:active{      /* Transition start after left-click of mouse */
+            width: 300px;
+            height: 300px;
+            background-color: rgb(131, 3, 236);
+        }
+        input{ 
+            width: 200px;
+            height: 20px;
+            margin: 20px;
+            transition-property: width;
+            transition-duration: 0.5s;         /* takes 0.5s for width  */
+            transition-timing-function: linear;       
+            clear: left;     
+        }
+        input:focus{ width: 400px; }    /* work when we start inputing text */
+    </style>
+</head>
+
+    <h1>CSS Property - Transition-2</h1>
+    <div class="div-tag" id="box-1"></div>
+    <div class="div-tag" id="box-2"></div>
+    <div class="div-tag" id="box-3"></div>
+    <input type="text" name="" id="" title="Text">
+
+</body>
+</html>

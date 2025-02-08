@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>list-style-type</title>
+    <style>
+        h1{ text-align: center; }
+        div{ 
+            width: 300px;
+            border: 2px solid black;
+            float: left;
+        }
+        li{ border: 1px solid red; margin-right: 10px; }
+        #First{  list-style-type: disc;   list-style-position: inside;  }    
+        #Second{ list-style-type: square; list-style-position: outside; }  /* outside is By-default property */
+        #Third{  list-style-type: circle; }
+        #Fourth{ list-style-type: none;   }
+    </style>
+</head>
+<body>
+    <h1>list-style-position ==> Unordered-list</h1>
+    <div>
+        <ul id="First">
+            <li>Apple</li>
+            <li>Banana</li>
+            <li>Carrot</li>
+            <li>Dog</li>
+        </ul>
+    </div>
+    <div>
+        <ul id="Second">
+            <li>Apple</li>
+            <li>Banana</li>
+            <li>Carrot</li>
+            <li>Dog</li>
+        </ul>
+    </div>
+    <div>
+        <ul id="Third">
+            <li>Apple</li>
+            <li>Banana</li>
+            <li>Carrot</li>
+            <li>Dog</li>
+        </ul>
+    </div>
+    <div>
+        <ul id="Fourth">
+            <li>Apple</li>
+            <li>Banana</li>
+            <li>Carrot</li>
+            <li>Dog</li>
+        </ul>
+    </div>
+</body>
+</html>

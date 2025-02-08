@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Filter</title>
+    <style>
+        h1{ text-align: center; }
+        .Image{
+            display: inline-block;
+            width: 300px;
+            height: 200px;
+            margin: 10px;
+            border: 2px solid black;
+        }
+        #Image-2{ filter: blur(5px); }
+        #Image-3{  filter: brightness(145%); }
+        #Image-4{  filter: contrast(200%); }
+        #Image-5{  filter: drop-shadow(5px 5px 10px black); }
+        /* drop-shadow  Horizontal-width   Vertical-width    Blurness-intensity     color */
+        #Image-6{ filter: grayscale(80%);  }
+        #Image-7{ filter: hue-rotate(130deg)  }         /* values Ranges from [0deg - 360deg] */
+        #Image-8{ filter: invert(145%);  }
+        #Image-9{ filter: opacity(75%);  }
+        #Image-10{ filter: saturate(175%);  }
+        #Image-11{ filter: sepia(175%);  }
+        /* Combine Filter */
+        #Image-12{ filter: sepia(175%) hue-rotate(120deg)  }
+    </style>
+</head>
+<body>
+    <h1>CSS Property - Filter</h1>
+    <img src="/Images/Nature.jpg" class="Image" id="Image-1" alt="">
+    <img src="/Images/Nature.jpg" class="Image" id="Image-2" alt="">
+    <img src="/Images/Nature.jpg" class="Image" id="Image-3" alt="">
+    <img src="/Images/Nature.jpg" class="Image" id="Image-4" alt="">
+    <img src="/Images/Nature.jpg" class="Image" id="Image-5" alt="">
+    <img src="/Images/Nature.jpg" class="Image" id="Image-6" alt="">
+    <img src="/Images/Nature.jpg" class="Image" id="Image-7" alt="">
+    <img src="/Images/Nature.jpg" class="Image" id="Image-8" alt="">
+    <img src="/Images/Nature.jpg" class="Image" id="Image-9" alt="">
+    <img src="/Images/Nature.jpg" class="Image" id="Image-10" alt="">
+    <img src="/Images/Nature.jpg" class="Image" id="Image-11" alt="">
+    <img src="/Images/Nature.jpg" class="Image" id="Image-12" alt="">
+
+</body>
+</html>
